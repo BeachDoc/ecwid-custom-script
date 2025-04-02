@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test Script</title>
+  </head>
+  <body>
+    <h1>Testing Script</h1>
+    <script>
+      // Inject environment variables
+      window.process = {
+        env: {
+          storeId: "5119050",
+          publicToken: "secret_KRpP3aaaZageJergVpujSJXwKq4UrSLm"
+        }
+      };
+    </script>
+    <script src="./public/script.js"></script>
+    <script src="./public/custom-validation.js"></script>
+  </body>
+</html>
